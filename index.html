@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web Speech API Lab</title>
+		<style>
+			/* Add the CSS styles here */
+            body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: beige
+            }
+			button {
+                font-size:0.75rem;
+                margin-top: 10vw;
+				cursor: pointer;
+                height: 10vh;                
+                max-width: 30vw;
+			}
+			textarea {
+				width: 80%;
+				height: 200px;
+                font-size: 2.5rem;
+                
+			}
+		</style>
+	</head>
+	<body>
+		<button id="start-btn">Start Speech Recognition</button>
+		<br /><br />
+		<textarea id="result-text" readonly></textarea>
+		<script src="script.js"></script>
+	</body>
+</html>
